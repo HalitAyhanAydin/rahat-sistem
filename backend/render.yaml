@@ -1,8 +1,0 @@
-version: "1"
-build:
-  commands:
-    - npm install
-    - npx prisma generate
-    - npx prisma db push
-start:
-  command: npm start
